@@ -1,3 +1,4 @@
+--lua的方法要在这里nil，否则关闭时报错
 xlua.hotfix(CS.Cube,'Update',nil)
 
 xlua.hotfix(CS.Load,'Start',nil)
