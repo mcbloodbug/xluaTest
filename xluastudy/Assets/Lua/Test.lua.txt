@@ -1,0 +1,36 @@
+local UnityEngine = CS.UnityEngine
+local sphereInstances = {} 
+local currentSphereIndex = 1
+
+xlua.hotfix(CS.Cube,'Update',function(self)
+   if(UnityEngine.Input.GetKeyDown(UnityEngine.KeyCode.S)) then
+   
+      self.cubeRigidbody:AddForce(UnityEngine.Vector3.up * 500)
+   end
+
+end)
+
+xlua.hotfix(CS.Load,'Start',function(self)
+ self.scr:LoadResource('Sphere','gameobj\\sphere.unity3d')
+end)
+
+xlua.hotfix(CS.Load,'Update',function(self)
+
+--新增一个球形
+  if(UnityEngine.Input.GetKeyDown(UnityEngine.KeyCode.U)) then
+    
+    local newSphere = UnityEngine.Object.Instantiate(self.scr:GetPrefab('Sphere'))
+      table.insert(sphereInstances, newSphere)
+   end
+
+--删除一个球形的代码
+   if (UnityEngine.Input.GetKeyDown(UnityEngine.KeyCode.X)) then
+      if (currentSphereIndex <= #sphereInstances) then
+         local sphereInstance = sphereInstances[currentSphereIndex]
+         if (sphereInstance ~= nil) then
+            UnityEngine.Object.Destroy(sphereInstance)
+         end
+         currentSphereIndex = currentSphereIndex + 1
+      end
+   end
+end)

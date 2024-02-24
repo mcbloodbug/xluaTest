@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/XLua/Examples/08_Hotfix/HotfixTest.unity
+    guid: 71b8de6dc619ca64da460a7200f00b9c
   m_configObjects: {}
