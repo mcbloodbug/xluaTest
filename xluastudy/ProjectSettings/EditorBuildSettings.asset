@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/XLua/Examples/08_Hotfix/HotfixTest.unity
-    guid: 71b8de6dc619ca64da460a7200f00b9c
+    path: Assets/Scenes/ReGenMe.unity
+    guid: 49d44b49159ea144c9203ae27c166e3b
+  - enabled: 1
+    path: Assets/Scenes/Load.unity
+    guid: c82655db54ba6d14a9dedb3ccae3ca47
+  - enabled: 1
+    path: Assets/Scenes/game.unity
+    guid: dad4ad703f42be04ab409f57df1af3ff
+  - enabled: 1
+    path: Assets/Scenes/Map04.unity
+    guid: 23bfb7ff1fa563344a8ced4ae40800db
   m_configObjects: {}

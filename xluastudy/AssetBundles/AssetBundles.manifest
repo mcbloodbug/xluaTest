@@ -1,7 +1,10 @@
 ManifestFileVersion: 0
-CRC: 2824976236
+CRC: 3671016674
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
       Name: gameobj/sphere.unity3d
+      Dependencies: {}
+    Info_1:
+      Name: gameobject/capsule.unity3d
       Dependencies: {}

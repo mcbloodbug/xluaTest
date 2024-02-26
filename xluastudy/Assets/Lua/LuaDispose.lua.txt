@@ -4,3 +4,5 @@ xlua.hotfix(CS.Cube,'Update',nil)
 xlua.hotfix(CS.Load,'Start',nil)
 
 xlua.hotfix(CS.Load,'Update',nil)
+
+xlua.hotfix(CS.ButtonControl,'OnButtonClick',nil)

@@ -49,6 +49,10 @@ namespace XLua.CSObjectWrap
             wrapInit0(luaenv, translator);
             
             
+            translator.AddInterfaceBridgeCreator(typeof(CallByIn.IGame), CallByInIGameBridge.__Create);
+            
+            translator.AddInterfaceBridgeCreator(typeof(CallByInComp.IGameUser), CallByInCompIGameUserBridge.__Create);
+            
             translator.AddInterfaceBridgeCreator(typeof(Tutorial.CSCallLua.ItfD), TutorialCSCallLuaItfDBridge.__Create);
             
         }

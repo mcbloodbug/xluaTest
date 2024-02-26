@@ -9,19 +9,36 @@ public class HotFixScript : MonoBehaviour
 {
     private LuaEnv luaEnv1;
     private Dictionary<string, GameObject> prefabs =new Dictionary<string, GameObject>();
+     
     private void Awake()
     {
         luaEnv1 = new LuaEnv();
         luaEnv1.AddLoader(MyLoader);
         luaEnv1.DoString("require 'Test'");
+
+        //luaEnv2 = new LuaEnv();
+        //luaEnv2.AddLoader(CustomMyLoader);
+        //luaEnv2.DoString("require 'FileText'");
     }
     private byte[] MyLoader(ref string filePath)
     {
-        string absPath = @"D:\UNITY WORK\xluaTest\xluastudy\Assets\Lua\" + filePath +".lua.txt";
+        string absPath = @"D:\UNITY WORK\xluaTest\xluastudy\Assets\Lua\" + filePath+ ".lua.txt";
         return System.Text.Encoding.UTF8.GetBytes(File.ReadAllText( absPath));
     
     }
-     
+    public  static byte[] CustomMyLoader(ref string fileName)
+    {
+        byte[] byArrayReture = null; //返回数据
+        //定义lua路径
+        string luaPath = Application.dataPath + "/Scripts/LuaScripts/" + fileName + ".lua";
+        //读取lua路径中的文件
+        string strLuaContent =File.ReadAllText(luaPath);
+        //数据转化
+        byArrayReture =System.Text.Encoding.UTF8.GetBytes(strLuaContent);
+        return byArrayReture;
+    }
+
+
     // Update is called once per frame
     void Update()
     {

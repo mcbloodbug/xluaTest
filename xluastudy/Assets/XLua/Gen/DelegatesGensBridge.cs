@@ -16,7 +16,105 @@ namespace XLua
     public partial class DelegateBridge : DelegateBridgeBase
     {
 		
-		public int __Gen_Delegate_Imp0(int p0, string p1, out Tutorial.CSCallLua.DClass p2)
+		public void __Gen_Delegate_Imp0(int p0, int p1, out int p2, out int p3, out int p4)
+		{
+#if THREAD_SAFE || HOTFIX_ENABLE
+            lock (luaEnv.luaEnvLock)
+            {
+#endif
+                RealStatePtr L = luaEnv.rawL;
+                int errFunc = LuaAPI.pcall_prepare(L, errorFuncRef, luaReference);
+                
+                LuaAPI.xlua_pushinteger(L, p0);
+                LuaAPI.xlua_pushinteger(L, p1);
+                
+                PCall(L, 2, 3, errFunc);
+                
+                p2 = LuaAPI.xlua_tointeger(L, errFunc + 1);
+                p3 = LuaAPI.xlua_tointeger(L, errFunc + 2);
+                p4 = LuaAPI.xlua_tointeger(L, errFunc + 3);
+                
+                
+                LuaAPI.lua_settop(L, errFunc - 1);
+                
+#if THREAD_SAFE || HOTFIX_ENABLE
+            }
+#endif
+		}
+        
+		public void __Gen_Delegate_Imp1(ref int p0, ref int p1, out int p2)
+		{
+#if THREAD_SAFE || HOTFIX_ENABLE
+            lock (luaEnv.luaEnvLock)
+            {
+#endif
+                RealStatePtr L = luaEnv.rawL;
+                int errFunc = LuaAPI.pcall_prepare(L, errorFuncRef, luaReference);
+                
+                LuaAPI.xlua_pushinteger(L, p0);
+                LuaAPI.xlua_pushinteger(L, p1);
+                
+                PCall(L, 2, 3, errFunc);
+                
+                p0 = LuaAPI.xlua_tointeger(L, errFunc + 1);
+                p1 = LuaAPI.xlua_tointeger(L, errFunc + 2);
+                p2 = LuaAPI.xlua_tointeger(L, errFunc + 3);
+                
+                
+                LuaAPI.lua_settop(L, errFunc - 1);
+                
+#if THREAD_SAFE || HOTFIX_ENABLE
+            }
+#endif
+		}
+        
+		public void __Gen_Delegate_Imp2(int p0, int p1)
+		{
+#if THREAD_SAFE || HOTFIX_ENABLE
+            lock (luaEnv.luaEnvLock)
+            {
+#endif
+                RealStatePtr L = luaEnv.rawL;
+                int errFunc = LuaAPI.pcall_prepare(L, errorFuncRef, luaReference);
+                
+                LuaAPI.xlua_pushinteger(L, p0);
+                LuaAPI.xlua_pushinteger(L, p1);
+                
+                PCall(L, 2, 0, errFunc);
+                
+                
+                
+                LuaAPI.lua_settop(L, errFunc - 1);
+                
+#if THREAD_SAFE || HOTFIX_ENABLE
+            }
+#endif
+		}
+        
+		public int __Gen_Delegate_Imp3(int p0, int p1)
+		{
+#if THREAD_SAFE || HOTFIX_ENABLE
+            lock (luaEnv.luaEnvLock)
+            {
+#endif
+                RealStatePtr L = luaEnv.rawL;
+                int errFunc = LuaAPI.pcall_prepare(L, errorFuncRef, luaReference);
+                
+                LuaAPI.xlua_pushinteger(L, p0);
+                LuaAPI.xlua_pushinteger(L, p1);
+                
+                PCall(L, 2, 1, errFunc);
+                
+                
+                int __gen_ret = LuaAPI.xlua_tointeger(L, errFunc + 1);
+                LuaAPI.lua_settop(L, errFunc - 1);
+                return  __gen_ret;
+#if THREAD_SAFE || HOTFIX_ENABLE
+            }
+#endif
+		}
+        
+		public int __Gen_Delegate_Imp4(int p0, string p1, out Tutorial.CSCallLua.DClass p2)
 		{
 #if THREAD_SAFE || HOTFIX_ENABLE
             lock (luaEnv.luaEnvLock)
@@ -40,7 +138,7 @@ namespace XLua
 #endif
 		}
         
-		public System.Action __Gen_Delegate_Imp1()
+		public System.Action __Gen_Delegate_Imp5()
 		{
 #if THREAD_SAFE || HOTFIX_ENABLE
             lock (luaEnv.luaEnvLock)
@@ -61,7 +159,7 @@ namespace XLua
 #endif
 		}
         
-		public void __Gen_Delegate_Imp2(object p0)
+		public void __Gen_Delegate_Imp6(object p0)
 		{
 #if THREAD_SAFE || HOTFIX_ENABLE
             lock (luaEnv.luaEnvLock)
@@ -92,14 +190,34 @@ namespace XLua
 		public override Delegate GetDelegateByType(Type type)
 		{
 		
+		    if (type == typeof(delAddingOut3))
+			{
+			    return new delAddingOut3(__Gen_Delegate_Imp0);
+			}
+		
+		    if (type == typeof(delAddingRef4))
+			{
+			    return new delAddingRef4(__Gen_Delegate_Imp1);
+			}
+		
+		    if (type == typeof(CallByDel.delAdding))
+			{
+			    return new CallByDel.delAdding(__Gen_Delegate_Imp2);
+			}
+		
+		    if (type == typeof(CallByDel.delAdding2))
+			{
+			    return new CallByDel.delAdding2(__Gen_Delegate_Imp3);
+			}
+		
 		    if (type == typeof(Tutorial.CSCallLua.FDelegate))
 			{
-			    return new Tutorial.CSCallLua.FDelegate(__Gen_Delegate_Imp0);
+			    return new Tutorial.CSCallLua.FDelegate(__Gen_Delegate_Imp4);
 			}
 		
 		    if (type == typeof(Tutorial.CSCallLua.GetE))
 			{
-			    return new Tutorial.CSCallLua.GetE(__Gen_Delegate_Imp1);
+			    return new Tutorial.CSCallLua.GetE(__Gen_Delegate_Imp5);
 			}
 		
 		    return null;
