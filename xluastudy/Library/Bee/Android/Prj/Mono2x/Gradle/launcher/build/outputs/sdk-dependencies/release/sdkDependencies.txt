@@ -1,0 +1,58 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "AntiAddiction_3.28.0"
+  }
+  digests {
+    sha256: "Q\352\367w\024\325\344b\376bDJ\001\341\204\v\"2\207\034\025\210WMc\304\346x\034`\223\373"
+  }
+}
+library {
+  maven_library {
+    artifactId: "TapCommon_3.28.0"
+  }
+  digests {
+    sha256: "[\301\r\257\214q\334c\267L\341R\017i\346)\240^\362\034\342W4\356\306=\214\300q\306\347_"
+  }
+}
+library {
+  maven_library {
+    artifactId: "TapLogin_3.28.0"
+  }
+  digests {
+    sha256: "\255\033Yd\224\313\301>l\274\341\201]\000\216?\350b@\367\225\313_q\035N\ng\302\332nx"
+  }
+}
+library {
+  maven_library {
+    artifactId: "AntiAddictionUI_3.28.0"
+  }
+  digests {
+    sha256: "Noi)\3036\371AT\261\027n\2114i\232\214\307aXs\020\232Y\222\212\2013\262=\362\372"
+  }
+}
+library {
+  digests {
+    sha256: "\002\023\241)\373\256\255FG\350+K\366\247H\024\'\375z\020\256\267]\340y<\324\327E\240\224\342"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+library_dependencies {
+  library_index: 3
+}
+library_dependencies {
+  library_index: 4
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 4
+}

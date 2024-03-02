@@ -1,0 +1,117 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\UNITY WORK\\xluaTest\\xluastudy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\干饭人\\.gradle\\caches\\transforms-2\\files-2.1\\9a6e92c24f2d6e719951b88b8b4172ab\\jetified-AntiAddictionUI_3.28.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,118,181,244,307,375,485,587,677,753,827,888",
+                        "endLines": "2,3,4,5,6,7,8,9,10,11,12,16",
+                        "endColumns": "62,62,62,62,67,109,101,89,75,73,60,12",
+                        "endOffsets": "113,176,239,302,370,480,582,672,748,822,883,1081"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,15,16,17,18,19,20,33",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,118,181,244,307,816,926,1028,1118,1194,1268,1970",
+                        "endLines": "2,3,4,5,6,15,16,17,18,19,20,36",
+                        "endColumns": "62,62,62,62,67,109,101,89,75,73,60,12",
+                        "endOffsets": "113,176,239,302,370,921,1023,1113,1189,1263,1324,2163"
+                    }
+                },
+                {
+                    "source": "D:\\UNITY WORK\\xluaTest\\xluastudy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,100",
+                        "endColumns": "43,65",
+                        "endOffsets": "96,163"
+                    },
+                    "to": {
+                        "startLines": "21,22",
+                        "startColumns": "4,4",
+                        "startOffsets": "1329,1375",
+                        "endColumns": "45,67",
+                        "endOffsets": "1370,1438"
+                    }
+                },
+                {
+                    "source": "D:\\UNITY WORK\\xluaTest\\xluastudy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "24,26,29",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1505,1605,1743",
+                        "endLines": "25,28,32",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "1600,1738,1965"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\干饭人\\.gradle\\caches\\transforms-2\\files-2.1\\23ece3da6a7f461d112ea00a240807c4\\jetified-TapCommon_3.28.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,7,13,17,21,26",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,127,195,312,633,940,1246,1541",
+                        "endLines": "2,3,6,12,16,20,25,29",
+                        "endColumns": "71,67,12,12,12,12,12,12",
+                        "endOffsets": "122,190,307,628,935,1241,1536,1767"
+                    },
+                    "to": {
+                        "startLines": "7,8,37,40,46,50,54,59",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "375,447,2168,2285,2606,2913,3219,3514",
+                        "endLines": "7,8,39,45,49,53,58,62",
+                        "endColumns": "71,67,12,12,12,12,12,12",
+                        "endOffsets": "442,510,2280,2601,2908,3214,3509,3740"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\干饭人\\.gradle\\caches\\transforms-2\\files-2.1\\a40569b8df5e5fb1cffca94cd4756904\\jetified-TapLogin_3.28.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "61",
+                        "endOffsets": "112"
+                    },
+                    "to": {
+                        "startLines": "23",
+                        "startColumns": "4",
+                        "startOffsets": "1443",
+                        "endColumns": "61",
+                        "endOffsets": "1500"
+                    }
+                },
+                {
+                    "source": "D:\\UNITY WORK\\xluaTest\\xluastudy\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\release\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,101,158,214,263,309",
+                        "endColumns": "45,56,55,48,45,46",
+                        "endOffsets": "96,153,209,258,304,351"
+                    },
+                    "to": {
+                        "startLines": "9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "515,561,618,674,723,769",
+                        "endColumns": "45,56,55,48,45,46",
+                        "endOffsets": "556,613,669,718,764,811"
+                    }
+                }
+            ]
+        }
+    ]
+}

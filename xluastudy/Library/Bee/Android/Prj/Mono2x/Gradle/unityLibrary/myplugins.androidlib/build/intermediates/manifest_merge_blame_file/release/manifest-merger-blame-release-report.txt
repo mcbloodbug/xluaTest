@@ -1,0 +1,31 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.privacy"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="1"
+8-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml
+9        android:targetSdkVersion="22" />
+9-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml
+10
+11    <application>
+11-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml:6:5-13:19
+12        <activity android:name="com.unity3d.privacy.PrivacyActivity" >
+12-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml:7:9-12:20
+12-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml:7:19-69
+13            <intent-filter>
+13-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml:8:13-11:29
+14                <action android:name="android.intent.action.MAIN" />
+14-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml:9:17-69
+14-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml:9:25-66
+15
+16                <category android:name="android.intent.category.LAUNCHER" />
+16-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml:10:17-77
+16-->D:\UNITY WORK\xluaTest\xluastudy\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\myplugins.androidlib\AndroidManifest.xml:10:27-74
+17            </intent-filter>
+18        </activity>
+19    </application>
+20
+21</manifest>

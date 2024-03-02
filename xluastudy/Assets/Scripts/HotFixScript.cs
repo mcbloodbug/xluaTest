@@ -16,9 +16,6 @@ public class HotFixScript : MonoBehaviour
         luaEnv1.AddLoader(MyLoader);
         luaEnv1.DoString("require 'Test'");
 
-        //luaEnv2 = new LuaEnv();
-        //luaEnv2.AddLoader(CustomMyLoader);
-        //luaEnv2.DoString("require 'FileText'");
     }
     private byte[] MyLoader(ref string filePath)
     {
@@ -61,7 +58,7 @@ public class HotFixScript : MonoBehaviour
 
     IEnumerator Load(string  resName,string filePath)
     {
-        UnityWebRequest request =UnityWebRequestAssetBundle.GetAssetBundle("http://localhost:80/AssetBundles/"+filePath);
+        UnityWebRequest request =UnityWebRequestAssetBundle.GetAssetBundle(@"http://localhost:80/AssetBundles/" + filePath);
         yield return request.SendWebRequest();
         AssetBundle ab =(request.downloadHandler as DownloadHandlerAssetBundle).assetBundle;
 

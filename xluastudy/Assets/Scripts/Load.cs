@@ -7,12 +7,13 @@ using XLua;
 public class Load : MonoBehaviour
 {
     public HotFixScript scr;
-
-     void Start()
+    [LuaCallCSharp]
+    void Start()
     {
         
     }
-     void Update()
+    [LuaCallCSharp]
+    void Update()
     {
         
     }

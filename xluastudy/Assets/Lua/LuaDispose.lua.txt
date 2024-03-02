@@ -5,4 +5,8 @@ xlua.hotfix(CS.Load,'Start',nil)
 
 xlua.hotfix(CS.Load,'Update',nil)
 
-xlua.hotfix(CS.ButtonControl,'OnButtonClick',nil)
+xlua.hotfix(CS.ButtonControl,'OnButtonClick1',nil)
+
+xlua.hotfix(CS.ButtonControl,'OnButtonClick2',nil)
+
+xlua.hotfix(CS.ButtonControl,'OnButtonClick3',nil)

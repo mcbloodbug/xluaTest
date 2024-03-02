@@ -56,11 +56,11 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2580}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 5388}
+      Script: {instanceID: 5406}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 6062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -91,15 +91,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2580}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 5256}
+      Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 5552}
+      Script: {instanceID: 5570}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 6062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -140,19 +140,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 2580}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 3306}
     - Class: 114
-      Script: {instanceID: 5256}
+      Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 5552}
+      Script: {instanceID: 5570}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 6062}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -205,24 +205,30 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-      Script: {instanceID: 1838}
+      Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 2580}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 2686}
+      Script: {instanceID: 2696}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2798}
     - Class: 114
-      Script: {instanceID: 3060}
+      Script: {instanceID: 3072}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4812}
     - Class: 114
-      Script: {instanceID: 5552}
+      Script: {instanceID: 5274}
     - Class: 114
-      Script: {instanceID: 6040}
+      Script: {instanceID: 5570}
     - Class: 114
-      Script: {instanceID: 7486}
+      Script: {instanceID: 6062}
+    - Class: 114
+      Script: {instanceID: 7510}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -308,6 +314,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CallByGlobal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnTriggerEnterMessageListener
@@ -317,6 +329,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LuaCallCBase
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -398,6 +416,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CallByRef
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: CoroutineRunner
@@ -467,6 +491,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IsInvokedFather
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -563,6 +593,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CallByIn
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CallByInComp
   - hash:
       serializedVersion: 2
       Hash: 2574ac7d50617d23cdefe4ad22f5e1ad
@@ -829,10 +871,22 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CallByDel
+  - hash:
+      serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CallByFunc
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -983,6 +1037,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CallByValue
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

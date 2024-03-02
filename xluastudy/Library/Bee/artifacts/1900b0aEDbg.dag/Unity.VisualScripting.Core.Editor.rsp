@@ -116,6 +116,14 @@
 -define:HOTFIX_ENABLE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/leancloud/Common.dll"
+-r:"Assets/Plugins/leancloud/LC.Google.Protobuf.dll"
+-r:"Assets/Plugins/leancloud/LC.Newtonsoft.Json.dll"
+-r:"Assets/Plugins/leancloud/LiveQuery.dll"
+-r:"Assets/Plugins/leancloud/Realtime.dll"
+-r:"Assets/Plugins/leancloud/Storage.dll"
+-r:"Assets/Plugins/leancloud/Storage.Unity.dll"
+-r:"Assets/Taptap/Login/Plugins/zxing.unity.dll"
 -r:"D:/Program Files/Unity 2021.3.18f1c1/2021.3.18f1c1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/Program Files/Unity 2021.3.18f1c1/2021.3.18f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Program Files/Unity 2021.3.18f1c1/2021.3.18f1c1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -347,6 +355,13 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+-analyzer:"Assets/Plugins/leancloud/Common.dll"
+-analyzer:"Assets/Plugins/leancloud/LC.Google.Protobuf.dll"
+-analyzer:"Assets/Plugins/leancloud/LC.Newtonsoft.Json.dll"
+-analyzer:"Assets/Plugins/leancloud/LiveQuery.dll"
+-analyzer:"Assets/Plugins/leancloud/Realtime.dll"
+-analyzer:"Assets/Plugins/leancloud/Storage.dll"
+-analyzer:"Assets/Plugins/leancloud/Storage.Unity.dll"
 "Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Analysis/Analyser.cs"
 "Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Analysis/AnalyserAttribute.cs"
 "Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Analysis/AnalyserProvider.cs"

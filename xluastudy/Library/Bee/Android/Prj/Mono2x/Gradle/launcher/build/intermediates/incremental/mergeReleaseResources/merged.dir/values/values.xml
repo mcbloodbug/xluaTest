@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="antiaddictionui_color_15c5ce">#15C5CE</color>
+    <color name="antiaddictionui_color_222222">#222222</color>
+    <color name="antiaddictionui_color_888888">#888888</color>
+    <color name="antiaddictionui_color_bfbfbf">#BFBFBF</color>
+    <color name="antiaddictionui_color_black_a30">#B3000000</color>
+    <item name="tds_common_tag_unhandled_key_event_manager" type="id"/>
+    <item name="tds_common_tag_unhandled_key_listeners" type="id"/>
+    <item name="unitySurfaceView" type="id"/>
+    <string name="FreeformWindowOrientation_landscape"/>
+    <string name="FreeformWindowOrientation_portrait"/>
+    <string name="FreeformWindowSize_maximize"/>
+    <string name="FreeformWindowSize_phone"/>
+    <string name="FreeformWindowSize_tablet"/>
+    <string name="antiaddictionui_dialog_tap_authorization_title" translatable="false">TapTap 快速认证服务</string>
+    <string name="antiaddictionui_fetch_realname_fail" translatable="false">未查询到实名状态，防沉迷启动失败</string>
+    <string name="antiaddictionui_network_error" translatable="false">网络异常，请稍后重试</string>
+    <string name="antiaddictionui_realname_success">您已在 TapTap 实名！</string>
+    <string name="antiaddictionui_retry" translatable="false">重试</string>
+    <string name="antiaddictionui_return_game">返回游戏</string>
+    <string name="app_name">xluatest</string>
+    <string name="game_view_content_description">Game view</string>
+    <string name="login_account_logged_tip">已登录账号：%s</string>
+    <style name="BaseUnityTheme" parent="android:Theme.Holo.Light.NoActionBar.Fullscreen">
+</style>
+    <style name="UnityThemeSelector" parent="BaseUnityTheme">
+	<item name="android:windowBackground">@android:color/black</item>
+</style>
+    <style name="UnityThemeSelector.Translucent" parent="@style/UnityThemeSelector">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+</style>
+    <style name="antiaddictionui_common_text_style">
+        <item name="android:textColor">@color/antiaddictionui_color_888888</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="layout_width_max_335dp">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="tds_common_DialogTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="tds_common_animation_slideSheetDialog_landscape" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/tds_common_slide_sheet_land_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/tds_common_slide_sheet_land_slide_out</item>
+    </style>
+    <style name="tds_common_animation_slideSheetDialog_portrait" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/tds_common_slide_sheet_port_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/tds_common_slide_sheet_port_slide_out</item>
+    </style>
+    <style name="tds_common_permission_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="tds_common_tap_toast">
+        <item name="android:windowEnterAnimation">@anim/tds_common_tap_toast_enter</item>
+        <item name="android:windowExitAnimation">@anim/tds_common_tap_toast_exit</item>
+    </style>
+</resources>

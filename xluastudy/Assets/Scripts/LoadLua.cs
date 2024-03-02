@@ -12,23 +12,23 @@ public class LoadLua : MonoBehaviour
     { 
         StartCoroutine(Load()); 
     }
-    
 
-    IEnumerator Load( )
+
+    IEnumerator Load()
     {
-         
-            UnityWebRequest request = UnityWebRequest.Get(@"http://localhost:80/Test.lua.txt");
-            yield return request.SendWebRequest();
-            string str = request.downloadHandler.text;
-            File.WriteAllText(@"D:\UNITY WORK\xluaTest\xluastudy\Assets\Lua\Test.lua.txt", str);
 
-            UnityWebRequest request1 = UnityWebRequest.Get(@"http://localhost:80/LuaDispose.lua.txt");
-            yield return request1.SendWebRequest();
-            string str1 = request1.downloadHandler.text;
-            File.WriteAllText(@"D:\UNITY WORK\xluaTest\xluastudy\Assets\Lua\LuaDispose.lua.txt", str1);
+        UnityWebRequest request = UnityWebRequest.Get(@"http://localhost:80/Test.lua.txt");
+        yield return request.SendWebRequest();
+        string str = request.downloadHandler.text;
+        File.WriteAllText(@"D:\UNITY WORK\xluaTest\xluastudy\Assets\Lua\Test.lua.txt", str);
 
-            SceneManager.LoadScene("game");
-        
+        UnityWebRequest request1 = UnityWebRequest.Get(@"http://localhost:80/LuaDispose.lua.txt");
+        yield return request1.SendWebRequest();
+        string str1 = request1.downloadHandler.text;
+        File.WriteAllText(@"D:\UNITY WORK\xluaTest\xluastudy\Assets\Lua\LuaDispose.lua.txt", str1);
+
+        SceneManager.LoadScene("game");
+
     }
     void Update()
     {

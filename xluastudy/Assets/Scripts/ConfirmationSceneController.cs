@@ -22,7 +22,7 @@ public class ConfirmationSceneController : MonoBehaviour
 
     public void LoadScene2()
     {
-        SceneManager.LoadScene("Map04");
+        SceneManager.LoadScene("game");
         Debug.Log("ж╠╫ссно╥");
     }
 }

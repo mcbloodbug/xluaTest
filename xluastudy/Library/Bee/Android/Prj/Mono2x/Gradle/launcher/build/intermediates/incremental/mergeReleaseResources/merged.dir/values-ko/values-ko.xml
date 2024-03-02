@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_account_logged_tip">로그인한 계정: %s</string>
+</resources>
